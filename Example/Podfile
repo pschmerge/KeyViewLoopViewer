@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KeyViewLoopViewer_Example' do
+  pod 'KeyViewLoopViewer', :path => '../'
+
+  target 'KeyViewLoopViewer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
