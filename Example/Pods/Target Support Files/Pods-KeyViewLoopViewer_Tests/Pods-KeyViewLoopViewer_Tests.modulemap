@@ -1,0 +1,6 @@
+framework module Pods_KeyViewLoopViewer_Tests {
+  umbrella header "Pods-KeyViewLoopViewer_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
