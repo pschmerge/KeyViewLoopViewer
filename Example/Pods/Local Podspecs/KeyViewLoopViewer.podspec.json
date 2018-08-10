@@ -1,22 +1,23 @@
 {
   "name": "KeyViewLoopViewer",
   "version": "0.1.0",
-  "summary": "A short description of KeyViewLoopViewer.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/pierce@turnpedallabs.com/KeyViewLoopViewer",
+  "summary": "Visually debug key view loop",
+  "description": "Visually display the view corresponding to nextKeyView for views in the view heirarchy",
+  "homepage": "https://github.com/pschmerge/KeyViewLoopViewer.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "pierce@turnpedallabs.com": "pierce.schmerge@gmail.com"
+    "pschmerge@turnpedallabs.com": "pierce.schmerge@gmail.com"
   },
   "source": {
-    "git": "https://github.com/pierce@turnpedallabs.com/KeyViewLoopViewer.git",
+    "git": "https://github.com/pschmerge/KeyViewLoopViewer.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "osx": "10.10"
+    "osx": "10.11"
   },
-  "source_files": "KeyViewLoopViewer/Classes/**/*"
+  "source_files": "KeyViewLoopViewer/Classes/**/*",
+  "swift_version": "3.2"
 }
