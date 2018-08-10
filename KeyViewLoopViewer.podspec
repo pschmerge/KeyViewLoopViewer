@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   Visually display the view corresponding to nextKeyView for views in the view heirarchy
   DESC
   
-  s.homepage         = 'https://github.com/pschmerge/key-view-loop.git'
+  s.homepage         = 'https://github.com/pschmerge/KeyViewLoopViewer.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pschmerge@turnpedallabs.com' => 'pierce.schmerge@gmail.com' }
-  s.source           = { :git => 'https://github.com/pschmerge/key-loop-view.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/pschmerge/KeyViewLoopViewer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
   s.platform = :osx

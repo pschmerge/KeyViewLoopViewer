@@ -27,3 +27,9 @@ pierce@turnpedallabs.com, pierce.schmerge@gmail.com
 ## License
 
 KeyViewLoopViewer is available under the MIT license. See the LICENSE file for more info.
+
+
+## Development
+
+Based on this howto:
+[howto](https://medium.com/@shahabejaz/create-and-distribute-private-libraries-with-cocoapods-5b6507b57a03)
