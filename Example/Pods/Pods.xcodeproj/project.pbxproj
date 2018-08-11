@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,7 +16,6 @@
 		89A500261901CE1663B473A5AED619DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
 		A4EF59A208CAF51F4F144D44EE821B8B /* KeyViewLoopViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B74384D8BEA9E89747AA12963C7AC7BF /* KeyViewLoopViewer-dummy.m */; };
 		BA517A043D612721608C9E8175E02C5A /* Pods-KeyViewLoopViewer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1761EA97DC398CE6C06CEBD12ABB1162 /* Pods-KeyViewLoopViewer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C57D90225E9F4475F49C8604D545212A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46E10EA4F7FDD730F4495132777C1F6 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,19 +42,18 @@
 		1761EA97DC398CE6C06CEBD12ABB1162 /* Pods-KeyViewLoopViewer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyViewLoopViewer_Example-umbrella.h"; sourceTree = "<group>"; };
 		24CB0CBB5D8FDE5B6D1FCF148DB1D365 /* Pods-KeyViewLoopViewer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyViewLoopViewer_Example-resources.sh"; sourceTree = "<group>"; };
 		449D8A98326BE5064165E192F08B9B78 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45FDCF56F7AE99F7C282537E422D6412 /* Pods_KeyViewLoopViewer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KeyViewLoopViewer_Example.framework; path = "Pods-KeyViewLoopViewer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FDCF56F7AE99F7C282537E422D6412 /* Pods_KeyViewLoopViewer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyViewLoopViewer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1AAFA05A1E09817F2574BD57C8F7A9 /* Pods-KeyViewLoopViewer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeyViewLoopViewer_Example.modulemap"; sourceTree = "<group>"; };
-		54667F6459D089E7650A062E5A9FA8AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		54667F6459D089E7650A062E5A9FA8AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		634FC6D4498394FA3189BCC49D0033C0 /* Pods-KeyViewLoopViewer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyViewLoopViewer_Tests-dummy.m"; sourceTree = "<group>"; };
 		74BAE8ABEE9D298760430817704C4186 /* KeyViewLoopViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeyViewLoopViewer.modulemap; sourceTree = "<group>"; };
 		7FA7A3F386AF550C33D3B25FEE69A6F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D732352D8E7836C113F147BB6195094 /* Pods-KeyViewLoopViewer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyViewLoopViewer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		919C2C24799AE9ED33E2025382E8B188 /* Pods-KeyViewLoopViewer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyViewLoopViewer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9399BD721B8ED91247B7F5CB42DCE126 /* Pods-KeyViewLoopViewer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyViewLoopViewer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FF7AE66041FC20E74719DF6EC8B69BC /* Pods-KeyViewLoopViewer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyViewLoopViewer_Tests-resources.sh"; sourceTree = "<group>"; };
 		A2DC960F5EC92AD1D24541E9A464FD4F /* Pods-KeyViewLoopViewer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyViewLoopViewer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A46E10EA4F7FDD730F4495132777C1F6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KeyViewLoopViewer/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		A78AD0477BC3A14FCA4E5693A66FB502 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A811C56E3D038697BD31E7FA5E64BCF1 /* KeyViewLoopViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyViewLoopViewer-umbrella.h"; sourceTree = "<group>"; };
 		A868CFC4961303E07111A4B59AFF5F70 /* Pods-KeyViewLoopViewer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyViewLoopViewer_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -64,13 +62,13 @@
 		B74384D8BEA9E89747AA12963C7AC7BF /* KeyViewLoopViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeyViewLoopViewer-dummy.m"; sourceTree = "<group>"; };
 		B88F18E7BF8D786F0EC8C84FDDD6B50E /* Pods-KeyViewLoopViewer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyViewLoopViewer_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C4640EA0A20ADEE571436379F4F542AF /* Pods-KeyViewLoopViewer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeyViewLoopViewer_Tests.modulemap"; sourceTree = "<group>"; };
-		C6C08FE88C905F7708667C3081DA1D8C /* Pods_KeyViewLoopViewer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KeyViewLoopViewer_Tests.framework; path = "Pods-KeyViewLoopViewer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C08FE88C905F7708667C3081DA1D8C /* Pods_KeyViewLoopViewer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyViewLoopViewer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE7E9856F629F8E2AEDC1FBC9292A93 /* Pods-KeyViewLoopViewer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyViewLoopViewer_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DE128FE5DEFF6C489C35453674C4B1E0 /* KeyViewLoopViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeyViewLoopViewer.framework; path = KeyViewLoopViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE128FE5DEFF6C489C35453674C4B1E0 /* KeyViewLoopViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeyViewLoopViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		EAB31B5269F77CEB71B9A5D3B9C4658D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EAB31B5269F77CEB71B9A5D3B9C4658D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EB64F825BEA508ADDA6D0B45B6CEF0B0 /* Pods-KeyViewLoopViewer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyViewLoopViewer_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FC03F4FAE671C130DB8F2645DE9E6FA7 /* KeyViewLoopViewer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KeyViewLoopViewer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FC03F4FAE671C130DB8F2645DE9E6FA7 /* KeyViewLoopViewer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = KeyViewLoopViewer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FF9ED5415207C405B232098A976313E7 /* Pods-KeyViewLoopViewer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyViewLoopViewer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -171,7 +169,6 @@
 		AE3E7B34A7877EC599093817B5F82E79 /* KeyViewLoopViewer */ = {
 			isa = PBXGroup;
 			children = (
-				A46E10EA4F7FDD730F4495132777C1F6 /* ReplaceMe.swift */,
 				86A0E08827D7E9D9BCB3F975DCDD0296 /* Pod */,
 				B08201E2449228E0E893284CB4D82A7F /* Support Files */,
 			);
@@ -352,7 +349,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4EF59A208CAF51F4F144D44EE821B8B /* KeyViewLoopViewer-dummy.m in Sources */,
-				C57D90225E9F4475F49C8604D545212A /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

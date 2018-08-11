@@ -110,7 +110,7 @@ public class TestKeyLoopView: NSView {
       var view: NSView? = startView
 
       repeat {
-         guard let guardView = view else { assert(false) }
+         guard let guardView = view else { return }
          let frameInWIndow = guardView.convert(guardView.bounds, to: nil)
          let keyView = TestKeyView()
          keyView.frame = convert(frameInWIndow, from: nil)

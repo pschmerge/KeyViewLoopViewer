@@ -32,7 +32,10 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = "10.11"
   
   s.source_files = 'KeyViewLoopViewer/Classes/**/*'
-  s.swift_version = '3.2'
+  s.swift_version = '4.0'
+
+  s.osx.framework  = 'AppKit'
+  s.osx.framework  = 'Foundation'
   
   # s.resource_bundles = {
   #   'key-loop-view' => ['key-loop-view/Assets/*.png']
